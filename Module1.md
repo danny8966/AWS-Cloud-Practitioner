@@ -1,4 +1,4 @@
-Cloud Computing – On-demand delivery of IT resources over the interned with pay-as-you-go pricing
+# Cloud Computing – On-demand delivery of IT resources over the interned with pay-as-you-go pricing
 
 The request is made by the client; the server responds to that request after processing it.
 Key concept: “You only pay for what you use”
@@ -8,7 +8,7 @@ Key concept: “You only pay for what you use”
 -	Flexible pricing
 
 
-Cloud deployment types
+## Cloud deployment types
 1.	Cloud-based
 Migrate your existing resources to the cloud, design and build new applications within the cloud environment
 2.	On-premises
@@ -17,7 +17,7 @@ Provides dedicated resources and low latency, doesn’t provide many of the clou
 Cloud-based + On-premises. Ideal where legacy applications must remain on premises due to maintenance preferences or regulatory requirements
 
 
-Benefits of the Cloud
+## Benefits of the Cloud
 Benefit #1:  Trade fixed expense for variable expense
 Benefit #2:  Benefit from massive economies of scale
 Benefit #3:  Stop guessing capacity
@@ -26,7 +26,7 @@ Benefit #5:  Stop spending money running and maintaining data centres
 Benefit #6:  Go global in minutes
 
 
-AWS Global Infrastructure
+## AWS Global Infrastructure
 -	AWS Regions – minimum of 3 physically separate AZ within a geographic area
 -	Availability zones(AZ) – one or more data centres with redundant power, networking, and connectivity around the world
 
@@ -34,7 +34,7 @@ High availability – applications stay accessible with minimal down time, if on
 Fault tolerance – system keeps running even if multiple components fail
 
 
-The AWS Shared Responsibility Model
+## The AWS Shared Responsibility Model
 AWS = security of the cloud:
 -	Protecting the infrastructure that runs all the services offered
 Hardware, software, networking, facilities that run AWS Cloud services
