@@ -45,6 +45,7 @@ aws ec2 describe-availability-zones
 3.	AWS Software Development Kit (SDK)
 Interact with AWS resources through various programming languages like Python
 
+
 ## Launching an EC2 instance
 Using AWS Management Console:
 1.	Go to the EC2 console by searching etc
@@ -94,6 +95,7 @@ AWS automatically applies the discount to other instance sizes within the same f
 Applies discount across multiple Availability Zones for enhanced resource distribution and fault tolerance
 
 
+
 ## Scaling Amazon EC2
 Scalability ->
 Ability of a system to handle an increased load by  adding resources. Scale up (vertical scaling) by adding more power to existing machines or Scale out (horizontal scaling) by adding more machines. Focuses on long-term capacity planning to make sure that the system can grow and accommodate more users or workloads as needed.
@@ -113,6 +115,7 @@ Configured with three key settings:
 1.	Minimum capacity – least number of EC2 instances required to keep the application running
 2.	Desired capacity – ideal number of instanced needed to handle the current workload (default is minimum capacity)
 3.	Maximum capacity – upper limit on the number of instances than can be launched, preventing over-scaling and controlling costs.
+
 
 ## Directing Traffic with Elastic Load Balancing
 Elastic Load Balancing (ELB) 
