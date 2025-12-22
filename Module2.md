@@ -129,8 +129,30 @@ Although ELB and Amazon EC2 Auto Scaling are distinct services, they work in tan
 - Automatic scaling – scales traffic and automatically adjusts to changes in demand for a seamless operation as backend instanced are added or removed
 - Simplified management – decouples front-end and backend tiers and reduces manual synchronization. Handles maintenance, updates and failover to ease operational  overhead
 
+
 Routing methods:
 -	Round Robin – distributes traffic evenly across all available servers in cyclic manner 
 -	Least Connections – routes traffic to the server with the fewest active connections, maintaining a balanced load
 -	IP Hash – used the client’s IP address to consistently route traffic to the same server
 -	Least Response Time – directs traffic to the server with the fastest response time, minimizing latency
+
+
+
+#### Messaging and Queuing
+
+
+Tightly coupled – if one component fails, other components also fail.
+
+Loosely coupled – if one component fails, the other continue to function normally.
+
+### Amazon EventBridge  (example: food delivery service)
+
+
+Serverless service that helps connect different parts of an application using events, helping to build scalable, event-driven systems
+Simplifies the process of receiving, filtering, transforming, and delivering events.
+### Amazon Simple Queue Service (SQS) (example: taking orders)
+Message queuing service that facilitates reliable communication between software components. 
+It can send, store, and receive messages at any scale, making sure messages are not lost and that other services don’t need to be available for processing.
+### Amazon Simple Notification Service (SNS) (example: new product updates)
+Publish-subscribe service that publishers use to send messages to subscribers through SNS topics. 
+
