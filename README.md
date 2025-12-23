@@ -10,7 +10,7 @@ It includes ndotes of my AWS Cloud Practitioner course -> summaries of AWS servi
 - Prepare for the AWS Cloud Practitioner certification exam
 
 ### Topics 
-1. Module 1 - Introduction to the cloud   ✅
-2. Module 2 - Compute in the cloud        ✅
-3. Module 3 - Exploring compute resources ✅
-
+1. Module 1 - Introduction to the cloud    ✅
+2. Module 2 - Compute in the cloud         ✅
+3. Module 3 - Exploring compute resources  ✅
+4. Module 4 - Introduction to going global ✅
